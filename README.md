@@ -10,7 +10,9 @@ $ pip3 install django-filter
 
 $ django-admin startproject djangorest  
 
-$ python3 manage.py startapp rest  
+$ c
+
+$ django-admin startapp rest  
 
 $ python3 manage.py migrate  -> khởi tạo dữ liệu ban đầu cho project
 
