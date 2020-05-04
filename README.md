@@ -10,7 +10,7 @@ $ pip3 install django-filter
 
 $ django-admin startproject djangorest  
 
-$ c
+$ cd djangorest
 
 $ django-admin startapp rest  
 
