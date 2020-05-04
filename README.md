@@ -1,17 +1,17 @@
 # Django REST Framework
 
-$ pip install django   
+$ pip3 install django   
 
-$ pip install djangorestframework 
+$ pip3 install djangorestframework 
 
-$ pip install markdown       # Markdown support for the browsable API.
+$ pip3 install markdown       # Markdown support for the browsable API.
 
-$ pip install django-filter
+$ pip3 install django-filter
 
 $ django-admin startproject djangorest  
 
-$ python manage.py startapp rest  
+$ python3 manage.py startapp rest  
 
-$ python manage.py migrate  -> khởi tạo dữ liệu ban đầu cho project
+$ python3 manage.py migrate  -> khởi tạo dữ liệu ban đầu cho project
 
-$ python manage.py runserver  
+$ python3 manage.py runserver  
