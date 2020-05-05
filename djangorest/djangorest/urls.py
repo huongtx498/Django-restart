@@ -17,12 +17,13 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url, include
 from rest_framework import routers
-from ..rest import views
+from rest import views
+
 
 router = routers.SimpleRouter()
 router.register(r'posts', views.PostListCreateAPIView,
-                base_name="Posts")     # đăng ký API vào router
-router.register(r'posts', views.PostDetailUpdateAPIView, base_name="Posts")
+                basename="Posts")     # đăng ký API vào router
+router.register(r'posts', views.PostDetailUpdateAPIView, basename="Posts")
 
 
 urlpatterns = [
