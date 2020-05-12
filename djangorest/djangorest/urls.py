@@ -23,4 +23,5 @@ urlpatterns = [
         include('rest_framework.urls', namespace='rest_framework')
     ),
     url(r'^admin/', admin.site.urls),
+    url(r'^home/', include('home.urls')),
 ]
